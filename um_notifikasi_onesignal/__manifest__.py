@@ -8,7 +8,7 @@
     'description': """
         OneSignal connector
     """,
-
+    'license': 'KOTO-1',
     'currency': 'EUR',
     'price': 30,
 
