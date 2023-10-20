@@ -15,13 +15,13 @@
     'author': "Umar",
     'website': "https://idkotoo.com",
     'maintainer': 'idkotoo',
-    'images': ['static/description/main2.png'],
+    # 'images': ['static/description/main2.png'],
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/16.0/odoo/addons/base/data/ir_module_category_data.xml
     # for the full list
     'category': 'Tools',
     'version': '16.0.1.0.1',
-    'images': ['static/description/banner.gif'],
+    'images': ['static/description/main2.png'],
     # any module necessary for this one to work correctly
     'depends': ['base', 'hr', 'web'],
 
