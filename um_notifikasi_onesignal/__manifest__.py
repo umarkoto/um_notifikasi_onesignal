@@ -23,7 +23,7 @@
     'version': '16.0.1.0.1',
     'images': ['static/description/banner.gif'],
     # any module necessary for this one to work correctly
-    'depends': ['base', 'um_stpd', 'web'],
+    'depends': ['base', 'hr', 'web'],
 
     # always loaded
     'data': [
