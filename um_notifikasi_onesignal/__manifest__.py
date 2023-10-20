@@ -21,7 +21,7 @@
     # for the full list
     'category': 'Tools',
     'version': '16.0.1.0.1',
-    'images': ['static/description/main2.png'],
+    'images': ['static/description/main1.png', 'static/description/main2.png'],
     # any module necessary for this one to work correctly
     'depends': ['base', 'hr', 'web'],
 
