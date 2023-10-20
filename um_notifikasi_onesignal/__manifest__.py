@@ -10,7 +10,7 @@
     """,
     'license': 'OPL-1',
     'currency': 'EUR',
-    'price': 30,
+    'price': 25,
 
     'author': "Umar",
     'website': "https://idkotoo.com",
