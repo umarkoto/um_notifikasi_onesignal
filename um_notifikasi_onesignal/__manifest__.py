@@ -15,7 +15,7 @@
     'author': "Umar",
     'website': "https://idkotoo.com",
     'maintainer': 'idkotoo',
-    'images': ['static/description/main1.png', 'static/description/main2.png'],
+    'images': ['static/description/main2.png'],
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/16.0/odoo/addons/base/data/ir_module_category_data.xml
     # for the full list
