@@ -1,0 +1,15 @@
+<odoo>
+    <data inherit_id="web.assets_backend">
+        <!-- OneSignal Scripts -->
+        <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer="defer"></script>
+
+        <script type="text/javascript">
+            window.OneSignalDeferred = window.OneSignalDeferred || [];
+            OneSignalDeferred.push(function(OneSignal) {
+            OneSignal.init({
+            appId: "9d3f309b-9d15-488e-beb8-561e26e5860c",
+            });
+            });
+        </script>
+    </data>
+</odoo>

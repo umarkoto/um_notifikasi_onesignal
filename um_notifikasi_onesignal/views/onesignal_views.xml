@@ -1,0 +1,39 @@
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="onesignal_tree_view">
+            <field name="name">onesignal_tree</field>
+            <field name="model">onesignal.notification</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="app_id"/>
+                    <field name="authorization_key"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="onesignal_form_view" model="ir.ui.view">
+            <field name="name">onesignal_form</field>
+            <field name="model">onesignal.notification</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                            <field name="app_id"/>
+                            <field name="authorization_key"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record model="ir.actions.act_window" id="onesignal_action">
+            <field name="name">Onesignal</field>
+            <field name="res_model">onesignal.notification</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem id="onesignal_menu" name="Onesignal" action="onesignal_action" parent="base.menu_administration"
+                  sequence="2"/>
+
+    </data>
+</odoo>
