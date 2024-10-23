@@ -9,7 +9,7 @@
         OneSignal connector
     """,
 
-    'currency': 'IDR',
+    'currency': 'EUR',
     'price': 40,
 
     'author': "Umar",
@@ -20,7 +20,7 @@
     # Check https://github.com/odoo/odoo/blob/16.0/odoo/addons/base/data/ir_module_category_data.xml
     # for the full list
     'category': 'Tools',
-    'version': '17.0.1.0.1',
+    'version': '16.0.1.0.1',
     'images': ['static/description/banner.gif'],
     # any module necessary for this one to work correctly
     'depends': ['base', 'um_stpd', 'web'],
